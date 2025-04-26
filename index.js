@@ -60,11 +60,11 @@ function createCard() {
     img.classList.add('app__image');
     figure.appendChild(img);
 
-    const figcaption = document.createElement('figcaption'); 
+    const figcaption = document.createElement('figcaption');
     figcaption.innerText = photo[i].title;
     figcaption.classList.add('app__caption');
-    figure.appendChild(figcaption);    
-  }  
+    figure.appendChild(figcaption);
+  }
 }
 
 createCard();
